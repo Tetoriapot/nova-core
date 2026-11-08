@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" fill="none">
+  <title>NOVA MINI ONE</title>
+  <desc>Original compact aluminium desktop computer with a rounded square enclosure, front USB ports and a soft sage finish.</desc>
+  <defs>
+    <linearGradient id="top" x1="216" y1="211" x2="586" y2="458" gradientUnits="userSpaceOnUse"><stop stop-color="#f1f3e9"/><stop offset=".3" stop-color="#e3e9dc"/><stop offset=".7" stop-color="#cbd5c2"/><stop offset="1" stop-color="#adbfa2"/></linearGradient>
+    <linearGradient id="front" x1="349" y1="388" x2="627" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#dbe2d1"/><stop offset=".5" stop-color="#a9b99c"/><stop offset="1" stop-color="#849b79"/></linearGradient>
+    <linearGradient id="left" x1="153" y1="365" x2="392" y2="531" gradientUnits="userSpaceOnUse"><stop stop-color="#bec9b6"/><stop offset=".4" stop-color="#8e9f84"/><stop offset="1" stop-color="#758b6d"/></linearGradient>
+    <linearGradient id="rim"><stop stop-color="#a0b092"/><stop offset=".4" stop-color="#dbe5cf"/><stop offset="1" stop-color="#7d926e"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+    <pattern id="vents" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="1.2" fill="#324c2c"/></pattern>
+  </defs>
+  <ellipse cx="400" cy="561" rx="249" ry="36" fill="#213820" opacity=".18" filter="url(#blur)"/>
+  <path d="m176 459 213 90 248-91v37l-248 88-213-91Z" fill="#2d442d"/>
+  <path d="m159 347 233 99v120c-10 0-20-2-30-6l-186-79c-12-5-18-14-18-27Z" fill="url(#left)" stroke="#809573" stroke-width="1.2"/>
+  <path d="m392 446 250-89v112c0 12-6 22-18 27l-211 75c-9 3-15 3-21-5Z" fill="url(#front)" stroke="#8ea27e" stroke-width="1.2"/>
+  <path d="m385 203-208 74c-25 9-25 24-3 35l195 87c15 7 31 9 48 3l205-73c26-10 27-24 2-35l-194-87c-15-7-29-10-45-4Z" fill="url(#top)" transform="translate(0 47)" stroke="#d5decb" stroke-width="1.5"/>
+  <path d="M159 346v24c0 12 5 20 19 26l185 81c18 8 35 10 51 4l207-74c14-5 21-13 21-26v-25c0 13-7 21-21 26l-207 74c-16 6-33 4-51-4l-185-81c-14-6-19-14-19-25Z" fill="url(#rim)"/>
+  <path d="m160 347 2 102c0 14 7 22 20 27l184 79c14 6 23 8 27 8" stroke="#dde7d1" stroke-opacity=".3" stroke-width="1.5"/>
+  <path d="M166 351c2 11 8 17 21 23l180 79c14 6 29 8 44 2l212-75c8-3 13-9 16-16" stroke="#f3f6ec" stroke-opacity=".75" stroke-width="1.6"/>
+  <g transform="matrix(1 -.354 0 1 392 471)">
+    <rect x="31" y="23" width="25" height="9" rx="4.5" fill="#536d43" stroke="#6f875f"/>
+    <rect x="35" y="26" width="17" height="3" rx="1.5" fill="#1c341b"/>
+    <rect x="71" y="23" width="25" height="9" rx="4.5" fill="#536d43" stroke="#6f875f"/>
+    <rect x="75" y="26" width="17" height="3" rx="1.5" fill="#1c341b"/>
+    <rect x="114" y="20" width="26" height="14" rx="1.6" fill="#334e2d" stroke="#7e966b"/>
+    <rect x="117" y="25" width="20" height="5" fill="#9eb58b"/>
+    <circle cx="165" cy="27" r="4.8" fill="#2c4826" stroke="#7e966b"/>
+    <circle cx="199" cy="27" r="7.5" fill="#90a67d" stroke="#667f52"/>
+    <path d="M199 22v5m-3-2a4 4 0 1 0 6 0" stroke="#455d35" stroke-width="1.1" stroke-linecap="round"/>
+    <circle cx="222" cy="28" r="1.7" fill="#deebc4"/>
+  </g>
+  <g transform="matrix(1 .43 0 1 180 420)"><rect x="0" y="2" width="167" height="38" fill="url(#vents)" opacity=".63"/></g>
+  <g transform="matrix(1 .445 -1 .355 377 315)" fill="#8fa17e"><path d="M0 0h6l16 22V0h6v32h-6L6 10v22H0Zm36 32L47 0h5L41 32Z"/><path d="M62 0h17v5H67v22h12v5H62Z"/></g>
+  <path d="m175 304 210-75c14-5 28-4 42 2l194 87" stroke="#fbfcf7" stroke-opacity=".5"/>
+</svg>

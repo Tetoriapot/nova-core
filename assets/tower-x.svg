@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" fill="none">
+  <title>NOVA TOWER X</title>
+  <desc>Original graphite desktop tower with three softly lit sage fans and precision metal panels.</desc>
+  <defs>
+    <linearGradient id="top" x1="180" y1="100" x2="650" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#636b62"/><stop offset=".52" stop-color="#3c473f"/><stop offset="1" stop-color="#252e28"/></linearGradient>
+    <linearGradient id="side" x1="170" y1="170" x2="430" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#455047"/><stop offset="1" stop-color="#202b23"/></linearGradient>
+    <linearGradient id="front" x1="420" y1="200" x2="640" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#4b564c"/><stop offset=".4" stop-color="#29362c"/><stop offset="1" stop-color="#17251c"/></linearGradient>
+    <linearGradient id="window" x1="200" y1="200" x2="405" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#17281e"/><stop offset="1" stop-color="#0c1c12"/></linearGradient>
+    <radialGradient id="fan"><stop stop-color="#5a7353"/><stop offset=".26" stop-color="#223a27"/><stop offset=".66" stop-color="#486743"/><stop offset=".78" stop-color="#b0d094"/><stop offset=".83" stop-color="#81a366"/><stop offset="1" stop-color="#243d29"/></radialGradient>
+    <pattern id="mesh" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r=".9" fill="#0b1b10"/></pattern>
+    <filter id="shadow"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <ellipse cx="410" cy="654" rx="241" ry="28" fill="#152b1c" opacity=".23" filter="url(#shadow)"/>
+  <g transform="translate(-10 -15) scale(1.04)">
+    <path d="m188 528 24 11v20l-24-11zm229 99 25-7v22l-25 7zm203-59 22-6v22l-22 6z" fill="#122019"/>
+    <path d="M175 150 409 82 646 190 412 258Z" fill="url(#top)" stroke="#61705d" stroke-width="1.5"/>
+    <path d="m175 150 237 108v371L175 521Z" fill="url(#side)" stroke="#354a37" stroke-width="1.5"/>
+    <path d="m412 258 234-68v371l-234 68Z" fill="url(#front)" stroke="#354737" stroke-width="1.5"/>
+    <path d="m180 152 232 106 230-67M412 259v366" stroke="#82917a" stroke-opacity=".7"/>
+    <path d="m191 173 205 93v337l-205-94Z" fill="url(#window)" stroke="#0a1b12" stroke-width="3"/>
+    <g transform="matrix(1 .456 0 1 201 182)">
+      <rect x="8" y="15" width="170" height="213" fill="#243b2a"/>
+      <path d="M20 23h112v161H20z" fill="#1b3121" stroke="#54714a"/>
+      <path d="M32 35v140m10-140v140m68-140v140M32 47h78M32 162h78" stroke="#627f50" stroke-opacity=".45"/>
+      <rect x="51" y="68" width="50" height="50" rx="6" fill="#0f2417" stroke="#8fb578"/>
+      <path d="m62 94 7-11 14 20 8-12" stroke="#b8d99e" stroke-width="2.5"/>
+      <path d="M73 68V44q0-18 24-18h43m-39 76h24q14 0 14-16V43" stroke="#0a1b10" stroke-width="9"/>
+      <rect x="141" y="44" width="9" height="116" rx="2" fill="#7f9e69"/>
+      <rect x="157" y="44" width="9" height="116" rx="2" fill="#7f9e69"/>
+      <rect x="14" y="199" width="168" height="43" rx="2" fill="#43523b" stroke="#6b8158"/>
+      <path d="M20 210h155m-155 7h155m-155 7h155m-155 7h155" stroke="#1c3421" stroke-width="3"/>
+      <path d="M24 199h147" stroke="#b7d398" stroke-width="3"/>
+      <rect x="8" y="263" width="181" height="52" fill="#1a2d20"/>
+      <text x="29" y="294" fill="#6b8462" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">NOVA/CORE</text>
+      <path d="M0 0h67L0 219Z" fill="#d9ecd0" opacity=".06"/>
+    </g>
+    <g transform="matrix(1 -.29 0 1 412 258)">
+      <rect x="15" y="18" width="205" height="337" rx="3" fill="#1a2e20" stroke="#516348"/>
+      <circle cx="117" cy="92" r="48" fill="url(#fan)"/><circle cx="117" cy="92" r="29" stroke="#adc495" stroke-width="17" stroke-opacity=".15" stroke-dasharray="22 9"/><circle cx="117" cy="92" r="10" fill="#70895f"/>
+      <circle cx="117" cy="188" r="48" fill="url(#fan)"/><circle cx="117" cy="188" r="29" stroke="#adc495" stroke-width="17" stroke-opacity=".15" stroke-dasharray="22 9"/><circle cx="117" cy="188" r="10" fill="#70895f"/>
+      <circle cx="117" cy="284" r="48" fill="url(#fan)"/><circle cx="117" cy="284" r="29" stroke="#adc495" stroke-width="17" stroke-opacity=".15" stroke-dasharray="22 9"/><circle cx="117" cy="284" r="10" fill="#70895f"/>
+      <rect x="18" y="45" width="199" height="304" fill="url(#mesh)" opacity=".5"/>
+      <circle cx="194" cy="30" r="5" fill="#9bbd81" stroke="#b9cda7"/>
+      <rect x="34" y="27" width="14" height="5" rx="2.5" fill="#0e2115" stroke="#809173" stroke-width=".6"/><rect x="62" y="26" width="15" height="7" rx="1" fill="#0e2115"/><circle cx="95" cy="29" r="2.7" fill="#0e2115"/>
+    </g>
+    <g transform="matrix(1 .456 -1 .29 316 118)" fill="#0e2115" opacity=".56"><rect width="138" height="4" rx="2"/><rect y="10" width="138" height="4" rx="2"/><rect y="20" width="138" height="4" rx="2"/><rect y="30" width="138" height="4" rx="2"/><rect y="40" width="138" height="4" rx="2"/><rect y="50" width="138" height="4" rx="2"/></g>
+    <g fill="#819574"><circle cx="197" cy="184" r="2"/><circle cx="390" cy="272" r="2"/><circle cx="197" cy="503" r="2"/><circle cx="390" cy="590" r="2"/></g>
+  </g>
+</svg>

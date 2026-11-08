@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183e35">
+  <meta name="description" content="NOVA/COREは架空のPCブランド。デスクトップ・ノート・ミニPCを用途や価格で絞り込み、仕様の比較とカート操作を体験できるポートフォリオです。">
+  <title>NOVA/CORE | PCオンラインストア</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <div class="announcement"><span>NOVA/CORE ONLINE STORE</span><span>架空ブランドのデモサイトです。ご注文・決済は行いません。</span></div>
+  <header class="site-header">
+    <a href="#" class="brand" aria-label="NOVA/CORE ホーム">NOVA<span>/</span>CORE<span class="brand-dot">®</span></a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="#products">製品一覧</a><a href="#guide">PCの選び方</a><a href="#about">NOVA/COREについて</a><a href="#support">サポート</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" data-action="search" aria-label="商品を検索"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+      <button class="icon-button compare-header" data-action="compare-open" aria-label="比較リストを開く"><svg viewBox="0 0 24 24"><path d="M6 4v16M18 4v16M3 8h6M15 16h6M12 3v18"/></svg><span id="compare-count" class="count">0</span></button>
+      <button class="icon-button cart-trigger" data-action="cart-open" aria-label="カートを開く"><svg viewBox="0 0 24 24"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg><span id="cart-count" class="count">0</span></button>
+      <button class="icon-button menu-toggle" data-action="menu" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobile-nav"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="モバイルナビゲーション" hidden><a href="#products">製品一覧<span>↗</span></a><a href="#guide">PCの選び方<span>↗</span></a><a href="#about">NOVA/COREについて<span>↗</span></a><a href="#support">サポート<span>↗</span></a></nav>
+  </header>
+  <div id="storage-warning" class="storage-warning" role="alert" hidden></div>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-topline"><span><i></i> STUDIO SERIES / DESKTOP PC</span><span>2026 COLLECTION</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow">NOVA STUDIO S</p>
+        <h1 id="hero-title">制作に必要な性能を、<br>省スペースに。</h1>
+        <p class="hero-description">写真編集から動画制作まで。<br>32GBメモリと独立GPUを、コンパクトな一台に。</p>
+        <div class="hero-price"><strong>¥179,800</strong><span>税込・標準構成</span></div>
+        <button class="button button-dark" data-action="detail" data-id="studio-s">NOVA Studio Sを見る<span aria-hidden="true">↗</span></button>
+        <a class="hero-secondary" href="#products">すべてのPCを見る<span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-visual"><span class="hero-watermark" aria-hidden="true">STUDIO</span><img src="assets/studio-s.svg" width="800" height="720" alt="セージホワイトのコンパクトデスクトップ、NOVA Studio S" fetchpriority="high"><div class="product-callout"><span class="callout-dot"></span><span>148 mm<span>COMPACT BODY</span></span></div></div>
+      <div class="hero-bottom"><span>STUDIO S / STANDARD CONFIGURATION</span><div><span><b>32</b> GB MEMORY</span><span><b>1</b> TB SSD</span><span><b>12</b> CORE CPU</span></div><a href="#products" aria-label="商品一覧へスクロール">SCROLL <span>↓</span></a></div>
+    </section>
+    <div class="shopping-steps" aria-label="製品の選び方"><span><b>01</b> 用途から選ぶ</span><span><b>02</b> スペックを比較する</span><span><b>03</b> 構成と価格を確認する</span><span class="steps-caption">FIND YOUR NEXT PC</span></div>
+
+    <section id="products" class="products section-wrap" aria-labelledby="products-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / PRODUCTS</p><h2 id="products-title">PCラインアップ<span class="heading-period">.</span></h2></div><p>用途、サイズ、予算から。<br>6モデルの仕様を比較できます。</p></div>
+      <div class="catalog-top"><div class="category-tabs" role="group" aria-label="PCの種類"><button data-category="all" aria-pressed="true">すべて<span>06</span></button><button data-category="desktop" aria-pressed="false">デスクトップ</button><button data-category="laptop" aria-pressed="false">ノートPC</button><button data-category="mini" aria-pressed="false">ミニPC</button></div><button class="filter-toggle" data-action="filters" aria-expanded="false" aria-controls="filter-fields"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16M8 4v6M16 14v6"/></svg>絞り込み</button></div>
+      <form id="filter-form" class="filters" role="search">
+        <div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="search">商品名・スペックで検索</label><input id="search" type="search" placeholder="商品名・スペックで検索" maxlength="120" autocomplete="off"></div>
+        <div id="filter-fields" class="filter-fields"><label>用途<select id="use"><option value="all">すべての用途</option value="work">仕事・普段使い</option><option value="creator">クリエイティブ</option><option value="gaming">ゲーム</option><option value="study">学習</option></select></label><label>価格<select id="budget"><option value="0">すべての価格</option><option value="100000">10万円以下</option><option value="150000">15万円以下</option><option value="200000">20万円以下</option><option value="250000">25万円以下</option></select></label><label>並び順<select id="sort"><option value="featured">おすすめ順</option><option value="price-asc">価格が安い順</option><option value="price-desc">価格が高い順</option><option value="newest">新しい順</option></select></label></div>
+      </form>
+      <div class="catalog-meta"><p id="result-count" role="status">商品を読み込んでいます…</p><div><span class="compare-hint">最大3台まで比較できます</span><button id="reset-filters" class="text-button" data-action="reset-filters" hidden>条件をクリア<span aria-hidden="true">×</span></button></div></div>
+      <div id="product-grid" class="product-grid" aria-busy="true"><p class="loading-state">商品を読み込んでいます…</p></div>
+      <noscript><p class="notice">商品一覧・比較・カートにはJavaScriptが必要です。ブラウザの設定で有効にしてから再読み込みしてください。</p></noscript>
+      <p class="catalog-disclaimer">商品名・価格・スペックはすべて架空のサンプルです。画像はオリジナルの製品イメージです。</p>
+    </section>
+
+    <section id="guide" class="guide section-wrap" aria-labelledby="guide-title"><div class="section-heading"><div><p class="eyebrow">02 / FIND YOUR TYPE</p><h2 id="guide-title">用途からPCを選ぶ<span class="heading-period">.</span></h2></div><p>必要な性能がわからないときは、<br>主な用途から候補を絞れます。</p></div><div class="guide-grid">
+      <button class="guide-card" data-use="work"><span class="guide-number">01 / WORK</span><svg class="guide-icon" viewBox="0 0 96 80" aria-hidden="true"><rect x="9" y="10" width="78" height="49" rx="3"/><path d="M32 72h32M48 59v13M19 21h34M19 29h25M63 22h14v24H63zM19 41h34M19 49h20"/></svg><h3>仕事・普段使い</h3><p>資料作成、オンライン会議、<br>複数アプリの同時利用に。</p><span class="guide-link">対応モデルを見る<span>↗</span></span></button>
+      <button class="guide-card" data-use="creator"><span class="guide-number">02 / CREATE</span><svg class="guide-icon" viewBox="0 0 96 80" aria-hidden="true"><rect x="10" y="9" width="65" height="48" rx="2"/><path d="M19 47 36 28l13 13 9-8 9 14M25 64h61V22H76"/><circle cx="58" cy="23" r="5"/><path d="m19 70 5-10 5 10M59 72h18"/></svg><h3>クリエイティブ</h3><p>写真・動画の編集、<br>デザインや3D制作に。</p><span class="guide-link">対応モデルを見る<span>↗</span></span></button>
+      <button class="guide-card" data-use="gaming"><span class="guide-number">03 / PLAY</span><svg class="guide-icon" viewBox="0 0 96 80" aria-hidden="true"><path d="M30 23h36c9 0 16 35 11 40-7 7-16-12-22-12H41c-6 0-15 19-22 12-5-5 2-40 11-40Z"/><path d="M27 36h16M35 28v16M48 23v-9h12"/><circle cx="64" cy="33" r="3"/><circle cx="70" cy="42" r="3"/></svg><h3>ゲーム</h3><p>独立GPUを搭載した、<br>ゲームや配信向けの構成。</p><span class="guide-link">対応モデルを見る<span>↗</span></span></button>
+    </div></section>
+
+    <section id="about" class="about-section"><div class="about-mark" aria-hidden="true"><span>N</span><span>/</span><span>C</span><p>FORM. FUNCTION.<br>NOVA/CORE.</p></div><div class="about-copy"><p class="eyebrow">03 / ABOUT NOVA/CORE</p><h2>必要な性能と、<br>使い続けられる設計。</h2><p>NOVA/COREは、仕事や制作に使うPCを提案する架空のブランドです。用途ごとに構成を整理し、性能・サイズ・価格を比べて選べるストアを目指しました。</p><div class="about-facts"><div><span>01</span><h3>用途に合わせた構成</h3><p>メモリとSSDを選び、価格をその場で確認。</p></div><div><span>02</span><h3>仕様を同じ項目で比較</h3><p>CPU、GPU、サイズまで、最大3台を一覧で表示。</p></div></div><p class="about-note">PORTFOLIO PROJECT / FICTIONAL BRAND</p></div></section>
+
+    <section id="support" class="support section-wrap"><div class="support-heading"><p class="eyebrow">04 / SUPPORT</p><h2>ご利用ガイド</h2><p>製品の選び方と、<br>このデモサイトについて。</p></div><div class="faq-list"><details><summary>PCはどのように選べばよいですか？<span aria-hidden="true">+</span></summary><p>持ち運ぶ場合はノートPC、机の上で使う場合はデスクトップやミニPCが候補です。動画編集や3D制作、ゲームには独立GPUを搭載したモデルをご確認ください。商品一覧の用途フィルターで候補を絞れます。</p></details><details><summary>メモリとSSDは変更できますか？<span aria-hidden="true">+</span></summary><p>商品詳細で用意されたメモリ・SSD容量を選択できます。選択に応じて税込価格が変わり、その構成でカートに追加されます。比較表は各商品の標準構成を表示します。</p></details><details><summary>カートの内容は保存されますか？<span aria-hidden="true">+</span></summary><p>カートと比較リストは、このブラウザ内に保存されます。同じURLで再び開くと復元されます。別のブラウザや端末とは共有されません。ブラウザの保存機能が使えない場合は、画面を閉じると内容が失われます。</p></details><details><summary>このサイトで商品を購入できますか？<span aria-hidden="true">+</span></summary><p>本サイトはポートフォリオ用のデモです。会社・商品・価格・仕様は架空であり、実際の販売、注文受付、決済、配送、保証は行いません。カートでは構成と合計金額の確認まで体験できます。</p></details></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-main"><a href="#" class="brand" aria-label="NOVA/CORE ホーム">NOVA<span>/</span>CORE<span class="brand-dot">®</span></a><div><a href="#products">製品一覧</a><a href="#guide">PCの選び方</a><a href="#about">ブランドについて</a><a href="#support">ご利用ガイド</a></div><a href="#" class="back-top" aria-label="ページの先頭へ">↑</a></div><div class="footer-bottom"><p>© 2026 NOVA/CORE — Portfolio concept</p><p>架空の会社・商品のデモサイトです。実際のご注文はできません。</p><button class="text-button" data-action="privacy">データの取り扱い</button></div></footer>
+  <aside id="compare-tray" class="compare-tray" aria-label="選択した比較商品" hidden><div><span class="eyebrow">COMPARE</span><strong id="tray-label">0台を選択中</strong></div><div id="tray-items" class="tray-items"></div><button class="button button-dark" data-action="compare-open">比較する<span aria-hidden="true">↗</span></button><button class="icon-button" data-action="compare-clear" aria-label="比較リストを空にする">×</button></aside>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><button class="dialog-close icon-button" data-action="dialog-close" aria-label="商品詳細を閉じる">×</button><div id="detail-content"></div></dialog>
+  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-header"><div><p class="eyebrow">COMPARE / STANDARD SPECS</p><h2 id="compare-title">PCを比較する</h2></div><button class="icon-button" data-action="dialog-close" aria-label="比較を閉じる">×</button></div><div id="compare-content"></div></dialog>
+  <dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title"><div class="dialog-header"><div><p class="eyebrow">YOUR SELECTION</p><h2 id="cart-title">カート<span id="cart-dialog-count"></span></h2></div><button class="icon-button" data-action="dialog-close" aria-label="カートを閉じる">×</button></div><div id="cart-content"></div></dialog>
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><button class="dialog-close icon-button" data-action="dialog-close" aria-label="説明を閉じる">×</button><div id="info-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-atomic="true" hidden><span id="toast-message"></span><button class="icon-button" data-action="toast-close" aria-label="通知を閉じる">×</button></div>
+</body>
+</html>

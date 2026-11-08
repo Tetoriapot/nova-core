@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" fill="none">
+  <title>NOVA BOOK PRO 16</title>
+  <desc>Original graphite creator laptop with a wide display, a green geometric wallpaper and a detailed keyboard.</desc>
+  <defs>
+    <linearGradient id="shell" x1="219" y1="77" x2="641" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#758175"/><stop offset=".3" stop-color="#384b3e"/><stop offset="1" stop-color="#1a2d21"/></linearGradient>
+    <linearGradient id="base" x1="200" y1="370" x2="436" y2="599" gradientUnits="userSpaceOnUse"><stop stop-color="#69766a"/><stop offset=".4" stop-color="#485d4b"/><stop offset="1" stop-color="#293f30"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#293e2d"/><stop offset=".34" stop-color="#657860"/><stop offset="1" stop-color="#203625"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="480" y2="285" gradientUnits="userSpaceOnUse"><stop stop-color="#0d241a"/><stop offset=".55" stop-color="#1e4730"/><stop offset="1" stop-color="#70895a"/></linearGradient>
+    <linearGradient id="fold"><stop stop-color="#cadba8"/><stop offset=".3" stop-color="#a3bd80"/><stop offset=".64" stop-color="#4b7046"/><stop offset="1" stop-color="#1f4b30"/></linearGradient>
+    <pattern id="keys" width="27" height="18" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="23" height="14" rx="2" fill="#1b3021" stroke="#6c7d5e" stroke-width=".7"/><path d="M7 7h4" stroke="#c7d4b9" stroke-opacity=".7" stroke-width=".8"/></pattern>
+    <clipPath id="display"><rect x="11" y="12" width="460" height="270" rx="3"/></clipPath>
+    <filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <ellipse cx="400" cy="591" rx="287" ry="36" fill="#10291a" opacity=".2" filter="url(#blur)"/>
+  <path d="M225 76c-5-1-8 2-9 7l-53 289c-1 5 2 8 7 9l469 73c5 1 8-2 9-7l53-289c1-5-2-8-7-9Z" fill="url(#shell)" stroke="#73836b" stroke-width="1.4"/>
+  <g transform="matrix(1 .155 -.181 1 218 77)">
+    <rect x="3" y="3" width="476" height="295" rx="5" fill="#0e2116"/>
+    <g clip-path="url(#display)">
+      <rect x="11" y="12" width="460" height="270" fill="url(#screen)"/>
+      <path d="m-23 300 172-322h118L94 300Z" fill="url(#fold)"/>
+      <path d="m125 300 172-322h118L243 300Z" fill="url(#fold)"/>
+      <path d="m273 300 172-322h118L391 300Z" fill="url(#fold)"/>
+      <path d="m13 300 172-322m-161 322L196-22M36 300 208-22M48 300 220-22m-60 322L332-22M172 300 344-22M184 300 356-22m-60 322L468-22M308 300 480-22M320 300 492-22" stroke="#e7f0cd" stroke-opacity=".25" stroke-width=".7"/>
+      <path d="m96 300 171-322m-22 322L416-22" stroke="#d8e6ba" stroke-opacity=".4"/>
+    </g>
+    <circle cx="241" cy="7" r="1.7" fill="#75886e"/>
+    <text x="241" y="292" text-anchor="middle" fill="#9eae8c" font-family="Arial,sans-serif" font-size="5.8" letter-spacing="2.2">NOVA/CORE</text>
+  </g>
+  <path d="m166 380 478 74-100 142-479-74Z" fill="url(#base)" stroke="#6c8062" stroke-width="1.5" stroke-linejoin="round"/>
+  <g transform="matrix(1 .155 -.704 1 166 380)">
+    <path d="M40 7h396" stroke="#203723" stroke-width="4"/>
+    <rect x="45" y="15" width="388" height="76" rx="4" fill="#334e35" stroke="#839871" stroke-width=".5"/>
+    <rect x="49" y="18" width="378" height="72" rx="3" fill="url(#keys)"/>
+    <rect x="131" y="74" width="164" height="13" rx="2" fill="#1b3021" stroke="#6c7d5e" stroke-width=".7"/>
+    <rect x="169" y="101" width="140" height="32" rx="3" fill="#3c553c" stroke="#829673" stroke-width=".6"/>
+    <path d="M25 21v68m7-68v68m415-68v68m7-68v68" stroke="#b2c19c" stroke-opacity=".5" stroke-width="2.4" stroke-dasharray=".8 2"/>
+  </g>
+  <path d="m65 522 479 74v10L72 531Z" fill="url(#edge)" stroke="#4d6547" stroke-width=".6"/>
+  <path d="m544 596 100-142v10L544 606Z" fill="#263e2a" stroke="#536e49" stroke-width=".6"/>
+  <path d="m65 522 479 74" stroke="#a6b697" stroke-opacity=".7"/>
+  <path d="m256 551 83 13-4 4-74-12Z" fill="#243d29"/>
+  <path d="m606 512 15-22m-35 50 13-18" stroke="#0f2518" stroke-width="4" stroke-linecap="round"/>
+  <path d="m575 554 5-7" stroke="#0f2518" stroke-width="3" stroke-linecap="round"/>
+  <path d="m566 568 1-2" stroke="#bad49a" stroke-width="2" stroke-linecap="round"/>
+</svg>
